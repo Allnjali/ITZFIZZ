@@ -114,28 +114,3 @@ tl.to(".content-overlay", {
   ease: "power1.out"
 }, 0);
 
-windows.addEventListener("load",()=>{
-  ScrollTrigger.refresh();
-
-  gsap.from(".service-card",{
-    
-    x: 250,
-    opacity: 0,
-    duration: 0.8,
-    stagger: 0.15,
-    ease: "power3.out",
-    
-  })
-})
-
-
-// scrollTrigger:{
-//       trigger:"#SERVICE",
-//       start:"top 70%",
-//       end:"bottom 20%",
-//       toggleActions:"play none none reverse",
-//       markers:true
-//     },
-
-// force3D: true,
-//     clearProps: "transform"
